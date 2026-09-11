@@ -11,9 +11,9 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Material 3 Starter',
+  title: 'ApplyFlow — Your job search, organized',
   description:
-    "A starter app built with Material Web (@material/web), Google's Material Design 3 web components.",
+    'ApplyFlow helps you organize applications, track interviews, and stay on top of your job search.',
 }
 
 export const viewport: Viewport = {
