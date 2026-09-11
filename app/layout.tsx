@@ -1,12 +1,12 @@
 import type { Metadata, Viewport } from 'next'
-import { Roboto } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { MaterialWebLoader } from '@/components/material-web-loader'
 import './globals.css'
 
-const roboto = Roboto({
-  weight: ['300', '400', '500', '700'],
+const inter = Inter({
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-roboto',
+  variable: '--font-inter',
   display: 'swap',
 })
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={roboto.variable} suppressHydrationWarning>
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
